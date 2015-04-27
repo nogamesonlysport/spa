@@ -60,7 +60,14 @@ bottom : 0; }
           height     : 15px;
           background : red;
           z-index    : 1;
+	  cursor     : pointer;
+	  border-radius : 5px 0 0 0;
 }
+
+.spa-shell-chat:hover {
+	bachground : #a00;
+}
+
 .spa-shell-modal {
   margin-top : -200px; margin-left : -200px; top : 50%; left : 50%; width : 400px; height : 400px; background : #fff; border-radius :   3px; z-index :2;
 }
